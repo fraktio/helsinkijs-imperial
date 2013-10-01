@@ -1,0 +1,12 @@
+{
+  "name": "imperial",
+  "version": "1.0.0",
+  "main": "app",
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "threejs": "*",
+    "modernizr": "~2.6.2",
+    "jquery": "*"
+  },
+  "devDependencies": {}
+}
