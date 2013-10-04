@@ -1,16 +1,36 @@
-h1, h2{
-    color: gold;
+body{
+    background: url(../img/background.png) repeat center ;
+}
+
+header {
     text-align: center;
 }
-h3{
-    color: crimson;
+
+h1, h2, h3{
+    color: gold;
+    text-align: center;
+    text-shadow: 2px 2px 2px #97701c;
 }
+
 
 .pylon{
     min-height: 200px;
 }
 
+p {
+    color: goldenrod;
+}
+
 .text {
-    color: #333;
-    background-color:rgba(255,255,255,0.5);
+
+    background-color:rgba(255,255,255,0.1);
+    border-radius: 5px;
+    padding: 3px 10px 3px 10px;
+}
+
+hr {
+    box-shadow: 0 0px 5px rgba(218, 165, 32, 1);
+    -moz-box-shadow: 0 0px 5px rgba(218, 165, 32, 1);
+    -webkit-box-shadow: 0 0px 5px rgba(218, 165, 32, 1);
+    border-top: 1px solid goldenrod;
 }
