@@ -13,6 +13,9 @@ $('document').ready(function(){
         element: document.getElementById('pylon2')
     });
 
+    var kariespro = new Kariespro({
+        element: document.getElementById('pylon2')
+    });
 
     oildrum.on('click', function(event) {
         alert('clicksor oil');
