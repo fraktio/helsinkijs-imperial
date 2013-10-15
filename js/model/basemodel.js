@@ -1,9 +1,8 @@
 
-
 var BaseView = voodoo.View.extend({
     unload: function() {
-        this.scene.remove(this.baseMesh);
-        this.triggers.remove(this.baseMesh);
+        this.scene.remove(this.object);
+        this.triggers.remove(this.object);
     },
 
     loadModel: function (model) {
