@@ -15,6 +15,7 @@ h1, h2, h3{
 
 .pylon{
     min-height: 200px;
+    cursor: hand;
 }
 
 p {
