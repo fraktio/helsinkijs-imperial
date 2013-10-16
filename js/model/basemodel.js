@@ -42,5 +42,4 @@ var BaseModel = voodoo.Model.extend({
         var position = voodoo.utility.findAbsolutePosition(this.element);
         this.view.move(position.x, position.y, this.element.offsetWidth, this.element.offsetHeight);
     }
-
 });

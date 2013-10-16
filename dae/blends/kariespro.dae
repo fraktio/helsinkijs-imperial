@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.68.0 r58536</authoring_tool>
     </contributor>
-    <created>2013-10-16T17:08:54</created>
-    <modified>2013-10-16T17:08:54</modified>
+    <created>2013-10-16T16:42:15</created>
+    <modified>2013-10-16T16:42:15</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -90,7 +90,7 @@
           <sun_effect_type>0</sun_effect_type>
           <sun_intensity>1</sun_intensity>
           <sun_size>1</sun_size>
-          <type>4</type>
+          <type>0</type>
         </technique>
       </extra>
     </light>
@@ -153,7 +153,7 @@
     <geometry id="Cube-mesh" name="Cube">
       <mesh>
         <source id="Cube-mesh-positions">
-          <float_array id="Cube-mesh-positions-array" count="24">-0.754 -0.443 -0.04000008 -0.754 0.443 -0.04000008 0.754 0.443 -0.04000008 0.754 -0.443 -0.04000008 -0.754 -0.443 0.03999996 -0.754 0.443 0.03999996 0.754 0.443 0.03999996 0.754 -0.443 0.03999996</float_array>
+          <float_array id="Cube-mesh-positions-array" count="24">-0.2682245 -0.2735075 0.8104866 -0.2682245 0.6124925 0.8104866 1.239775 0.6124925 0.8104866 1.239775 -0.2735075 0.8104866 -0.2682245 -0.2735075 0.8904866 -0.2682245 0.6124925 0.8904866 1.239775 0.6124925 0.8904866 1.239775 -0.2735075 0.8904866</float_array>
           <technique_common>
             <accessor source="#Cube-mesh-positions-array" count="8" stride="3">
               <param name="X" type="float"/>
@@ -203,11 +203,11 @@
         <instance_camera url="#Camera-camera"/>
       </node>
       <node id="Lamp" name="Lamp" type="NODE">
-        <matrix sid="transform">-0.2471883 -0.1201722 0.00516183 0.4563456 0.09524287 -0.2027543 -0.1593411 -1.118932 0.07346287 -0.1414901 0.2239506 1.935397 0 0 0 1</matrix>
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 5.903862 0 0 0 1</matrix>
         <instance_light url="#Lamp-light"/>
       </node>
       <node id="Cube" name="Cube" type="NODE">
-        <matrix sid="transform">1 0 0 0.05987567 0 1 0 0.1074607 0 0 1 0.07393312 0 0 0 1</matrix>
+        <matrix sid="transform">1 0 0 -2.069098 0 1 0 -0.316054 0 0 1 -1.453729 0 0 0 1</matrix>
         <instance_geometry url="#Cube-mesh">
           <bind_material>
             <technique_common>
