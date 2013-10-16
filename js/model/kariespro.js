@@ -3,32 +3,31 @@ var KariesProView = BaseView.extend({
         var that = this;
         $.when(this.loadModel('kariespro'))
             .then(function(obj) {
-                that.baseMesh = obj;
+                that.object = obj;
 
-                that.baseMesh.position.z = that.baseMesh.position.z + 100;
+                that.object.position.z = that.object.position.z + 100;
 
-               // that.baseMesh.rotation.y += 180 * Math.PI / 180
+                that.object.rotation.z += 20 * Math.PI / 180
+                that.object.rotation.x += 20 * Math.PI / 180
 
-
-                that.baseMesh.rotation.z += 20 * Math.PI / 180
-                that.baseMesh.rotation.x += 20 * Math.PI / 180
-
-                that.scene.add(that.baseMesh);
-                that.triggers.add(that.baseMesh);
+                that.scene.add(that.object);
+                that.triggers.add(that.object);
             });
     },
     move: function(x, y, width, height) {
-        this.baseMesh.position.x = x + width / 2.0;
-        this.baseMesh.position.y = y + height / 2.0;
+        if (this.object) {
+            this.object.position.x = x + width / 2.0;
+            this.object.position.y = y + height / 2.0;
 
-        this.baseMesh.scale.x = width * 0.2;
-        this.baseMesh.scale.y = width * 0.2;
-        this.baseMesh.scale.z = width * 0.2;
+            this.object.scale.x = width * 0.2;
+            this.object.scale.y = width * 0.2;
+            this.object.scale.z = width * 0.2;
+        }
     }
 });
 
 
 var Kariespro = BaseModel.extend({
-    name: 'kareispro',
+    name: 'kariespro',
     viewType: KariesProView
 });
