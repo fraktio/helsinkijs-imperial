@@ -7,7 +7,8 @@ var KariesProView = BaseView.extend({
 
                 that.object.position.z = that.object.position.z + 10;
 
-                that.object.rotation.z += 0 * Math.PI / 180
+                that.object.rotation.z += 30 * Math.PI / 180
+                that.object.rotation.y += 20 * Math.PI / 180
                 that.object.rotation.x += 180 * Math.PI / 180
 
                 that.scene.add(that.object);

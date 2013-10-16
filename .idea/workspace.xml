@@ -4,16 +4,11 @@
     <list default="true" id="564d5386-fae9-49ab-be48-fe1e792395bf" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/dae/background.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dae/kariespro.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dae/kariespro.blend1" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dae/kariespro.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/insucream-kansi.png" afterPath="$PROJECT_DIR$/img/insucream-kansi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/basemodel.js" afterPath="$PROJECT_DIR$/js/model/basemodel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/kariespro.dae" afterPath="$PROJECT_DIR$/dae/kariespro.dae" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/insucream_uv.png" afterPath="$PROJECT_DIR$/dae/insucream_uv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/kariespro_uv.png" afterPath="$PROJECT_DIR$/dae/kariespro_uv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/kariespro_uv.png" afterPath="$PROJECT_DIR$/dae/blends/kariespro_uv.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/kariespro.js" afterPath="$PROJECT_DIR$/js/model/kariespro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/pylon.dae" afterPath="$PROJECT_DIR$/dae/pylon.dae" />
     </list>
     <ignored path="imperial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +16,7 @@
     <file path="/index.html" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381907684071" ignored="false" />
     <file path="/main.css" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381928716727" ignored="false" />
     <file path="$PROJECT_DIR$/../audatia/css/style.css" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1380893511771" ignored="false" />
-    <file path="/kariespro.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381847390326" ignored="false" />
+    <file path="/kariespro.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381933492029" ignored="false" />
     <file path="/main.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381928683825" ignored="false" />
     <file path="/insucream.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381928646945" ignored="false" />
     <file path="/basemodel.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381927297123" ignored="false" />
@@ -74,7 +69,7 @@
       <file leaf-file-name="kariespro.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/model/kariespro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.11829653">
+            <state line="9" column="43" selection-start="314" selection-end="314" vertical-scroll-proportion="0.22058824">
               <folding />
             </state>
           </provider>
@@ -165,10 +160,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2560" />
-    <option name="y" value="34" />
+    <option name="y" value="22" />
     <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -380,7 +374,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="34" width="2560" height="1440" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -556,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dae/insucream.dae">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="21" selection-start="3196" selection-end="3196" vertical-scroll-proportion="-46.653847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dae/pylon.dae">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="21" selection-start="840" selection-end="3639" vertical-scroll-proportion="-41.923077">
@@ -570,9 +557,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dae/insucream.dae">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="21" selection-start="3196" selection-end="3196" vertical-scroll-proportion="-46.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/model/kariespro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="344" selection-end="344" vertical-scroll-proportion="0.11829653">
+        <state line="9" column="43" selection-start="314" selection-end="314" vertical-scroll-proportion="0.22058824">
           <folding />
         </state>
       </provider>
