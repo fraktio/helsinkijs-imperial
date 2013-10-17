@@ -1,5 +1,3 @@
-
-
 var InsucreamView = BaseView.extend({
     load: function() {
         var that = this;
@@ -7,9 +5,8 @@ var InsucreamView = BaseView.extend({
             .then(function(obj) {
                 that.object  = obj;
 
-                that.object .rotation.z = 120 * Math.PI / 180;
-                that.object .rotation.y = 45 * Math.PI / 180;
-                that.object .rotation.x = 15 * Math.PI / 180;
+                that.object.rotation.y = 15 * Math.PI / 180;
+                that.object.rotation.x = 35 * Math.PI / 180;
 
                 that.object .position.z = that.object .position.z + 100;
 
@@ -18,6 +15,7 @@ var InsucreamView = BaseView.extend({
             });
     },
     move: function(x, y, width, height) {
+
         if (this.object) {
             this.object.position.x = x + width / 2.0;
             this.object.position.y = y + height / 2.0;
@@ -25,12 +23,13 @@ var InsucreamView = BaseView.extend({
             this.object.scale.y = width * 0.2;
             this.object.scale.z = width * 0.2;
         }
+        this.object.rotation.z += 1 * Math.PI / 180
+
     },
 
-    rotateAll: function (x, y, z) {
-        this.object.rotation.x += x * Math.PI / 180
-        this.object.rotation.y += y * Math.PI / 180
-        this.object.rotation.z += z * Math.PI / 180
+    clickzor: function() {
+        this.object.rotation.x += 20 * Math.PI / 180
+        this.object.rotation.y += 30 * Math.PI / 180
     }
 });
 

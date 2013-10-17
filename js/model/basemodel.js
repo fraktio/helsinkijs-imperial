@@ -1,4 +1,3 @@
-
 var BaseView = voodoo.View.extend({
     unload: function() {
         this.scene.remove(this.object);
@@ -10,6 +9,7 @@ var BaseView = voodoo.View.extend({
         var localObject;
         //loader.options.convertUpAxis = true;
         var dfd = $.Deferred();
+        var that = this;
         loader.load('dae/' + model + '.dae', function colladaReady( collada ) {
 
             var localObject = collada.scene;
@@ -41,5 +41,6 @@ var BaseModel = voodoo.Model.extend({
     update: function(deltaTime) {
         var position = voodoo.utility.findAbsolutePosition(this.element);
         this.view.move(position.x, position.y, this.element.offsetWidth, this.element.offsetHeight);
+
     }
 });

@@ -1,11 +1,12 @@
+
 $('document').ready(function(){
 
     voodoo.engine = new voodoo.Engine(new voodoo.Options(
         {
             'performanceScaling': false,
-            'standardLighting': true
+            'standardLighting': false,
+            'realtime': false
         }));
-
 
 
     var insucream = new Insucream({
@@ -17,9 +18,20 @@ $('document').ready(function(){
         element: document.getElementById('pylon2')
     });
 
+    var spot = new Spot({
+        element: document.getElementById('pylon2')
+    });
+
+    var light = new Light({
+        element: document.getElementById('pylon1')
+    });
 
     insucream.on('click', function(event) {
-        insucream.view.rotateAll(90,90,90);
-
+        insucream.view.clickzor();
     });
+
+    kariespro.on('mouseover', function(event) {
+        kariespro.view.activate();
+    });
+
 });
