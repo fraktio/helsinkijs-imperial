@@ -2,42 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564d5386-fae9-49ab-be48-fe1e792395bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/model/light.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dae/blends/kariespro.dae" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dae/insucream.blend" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dae/insucream.blend1" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/insucream.blend1" afterPath="$PROJECT_DIR$/dae/blends/insucream.blend1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/insucream.blend2" afterPath="$PROJECT_DIR$/dae/blends/insucream.blend2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/insucream.blend" afterPath="$PROJECT_DIR$/dae/blends/insucream.blend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/insucream_uv.png" afterPath="$PROJECT_DIR$/dae/insucream_uv.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/insucream_uv.png" afterPath="$PROJECT_DIR$/dae/blends/insucream_uv.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/kariespro.blend1" afterPath="$PROJECT_DIR$/dae/blends/kariespro.blend1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/kariespro.blend2" afterPath="$PROJECT_DIR$/dae/blends/kariespro.blend2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/kariespro.blend" afterPath="$PROJECT_DIR$/dae/blends/kariespro.blend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/kariespro_uv.png" afterPath="$PROJECT_DIR$/dae/kariespro_uv.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/blends/kariespro_uv.png" afterPath="$PROJECT_DIR$/dae/blends/kariespro_uv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/voodoo.min.debug.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/basemodel.js" afterPath="$PROJECT_DIR$/js/model/basemodel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/insucream.dae" afterPath="$PROJECT_DIR$/dae/insucream.dae" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/insucream.js" afterPath="$PROJECT_DIR$/js/model/insucream.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dae/kariespro.dae" afterPath="$PROJECT_DIR$/dae/kariespro.dae" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/kariespro.js" afterPath="$PROJECT_DIR$/js/model/kariespro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/light.js" afterPath="$PROJECT_DIR$/js/model/light.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/model/spot.js" afterPath="$PROJECT_DIR$/js/model/spot.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="imperial.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1381844982351" ignored="false" />
     <file path="/index.html" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382017616212" ignored="false" />
-    <file path="/main.css" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382017766815" ignored="false" />
+    <file path="/main.css" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382018937021" ignored="false" />
     <file path="$PROJECT_DIR$/../audatia/css/style.css" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1380893511771" ignored="false" />
-    <file path="/kariespro.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382015602225" ignored="false" />
-    <file path="/main.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382015650750" ignored="false" />
-    <file path="/insucream.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382015544860" ignored="false" />
-    <file path="/basemodel.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382007286994" ignored="false" />
-    <file path="/light.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382012755331" ignored="false" />
-    <file path="/spot.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382016015788" ignored="false" />
+    <file path="/kariespro.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382021338574" ignored="false" />
+    <file path="/main.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382021183705" ignored="false" />
+    <file path="/insucream.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382021253682" ignored="false" />
+    <file path="/basemodel.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382021671372" ignored="false" />
+    <file path="/light.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382020971192" ignored="false" />
+    <file path="/spot.js" changelist="564d5386-fae9-49ab-be48-fe1e792395bf" time="1382019621021" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="19" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7534776">
+            <state line="2" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,7 +56,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-34.375">
+            <state line="12" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -78,7 +65,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="34" selection-start="764" selection-end="764" vertical-scroll-proportion="-19.038462">
+            <state line="22" column="7" selection-start="517" selection-end="517" vertical-scroll-proportion="-12.692307">
               <folding />
             </state>
           </provider>
@@ -87,7 +74,7 @@
       <file leaf-file-name="insucream.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/model/insucream.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="907" selection-end="1045" vertical-scroll-proportion="-16.73077">
+            <state line="30" column="53" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-17.307692">
               <folding />
             </state>
           </provider>
@@ -96,7 +83,16 @@
       <file leaf-file-name="kariespro.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/model/kariespro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="41" selection-start="617" selection-end="617" vertical-scroll-proportion="-10.384615">
+            <state line="30" column="53" selection-start="1037" selection-end="1037" vertical-scroll-proportion="-17.307692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="light.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/model/light.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -111,19 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="light.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/model/light.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="49" selection-start="209" selection-end="209" vertical-scroll-proportion="-2.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basemodel.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="basemodel.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/model/basemodel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+            <state line="27" column="39" selection-start="859" selection-end="859" vertical-scroll-proportion="0.31940064">
               <folding />
             </state>
           </provider>
@@ -152,14 +139,14 @@
         <option value="$PROJECT_DIR$/dae/insucream.dae" />
         <option value="$PROJECT_DIR$/js/clock.js" />
         <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/js/model/light.js" />
-        <option value="$PROJECT_DIR$/js/model/basemodel.js" />
-        <option value="$PROJECT_DIR$/js/model/insucream.js" />
-        <option value="$PROJECT_DIR$/js/model/kariespro.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/model/spot.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/model/spot.js" />
+        <option value="$PROJECT_DIR$/js/model/kariespro.js" />
+        <option value="$PROJECT_DIR$/js/model/insucream.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/model/light.js" />
+        <option value="$PROJECT_DIR$/js/model/basemodel.js" />
       </list>
     </option>
   </component>
@@ -400,6 +387,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
@@ -550,48 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/voodoo.min.debug_shit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/model/basemodel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/model/light.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="49" selection-start="209" selection-end="209" vertical-scroll-proportion="-2.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="34" selection-start="764" selection-end="764" vertical-scroll-proportion="-19.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/model/insucream.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="907" selection-end="1045" vertical-scroll-proportion="-16.73077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/model/kariespro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="617" selection-end="617" vertical-scroll-proportion="-10.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/model/spot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="645" selection-end="645" vertical-scroll-proportion="-10.961538">
@@ -599,16 +545,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-34.375">
+        <state line="2" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="19" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7534776">
+        <state line="22" column="7" selection-start="517" selection-end="517" vertical-scroll-proportion="-12.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model/light.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model/insucream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="53" selection-start="1040" selection-end="1040" vertical-scroll-proportion="-17.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model/kariespro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="53" selection-start="1037" selection-end="1037" vertical-scroll-proportion="-17.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model/basemodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="859" selection-end="859" vertical-scroll-proportion="0.31940064">
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-
+var  testing;
 $('document').ready(function(){
 
     voodoo.engine = new voodoo.Engine(new voodoo.Options(

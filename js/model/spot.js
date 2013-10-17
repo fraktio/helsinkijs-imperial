@@ -20,7 +20,6 @@ var SpotView = BaseView.extend({
     }
 });
 
-
 var Spot = BaseModel.extend({
     name: 'spot',
     viewType: SpotView

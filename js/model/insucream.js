@@ -7,7 +7,6 @@ var InsucreamView = BaseView.extend({
 
                 that.object.rotation.y = 15 * Math.PI / 180;
                 that.object.rotation.x = 35 * Math.PI / 180;
-
                 that.object .position.z = that.object .position.z + 100;
 
                 that.scene.add(that.object );
@@ -28,8 +27,8 @@ var InsucreamView = BaseView.extend({
     },
 
     clickzor: function() {
-        this.object.rotation.x += 20 * Math.PI / 180
-        this.object.rotation.y += 30 * Math.PI / 180
+        this.object.rotation.x += 20 * Math.PI / 180;
+        this.object.rotation.y += 30 * Math.PI / 180;
     }
 });
 

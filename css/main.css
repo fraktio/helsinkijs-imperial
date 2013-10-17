@@ -1,5 +1,6 @@
 body{
     background: url(../img/background.png) repeat center ;
+
 }
 
 header {
@@ -10,6 +11,7 @@ h1, h2, h3{
     color: gold;
     text-align: center;
     text-shadow: 2px 2px 2px #97701c;
+    font-family: sans;
 }
 
 

@@ -1,28 +1,32 @@
-var spotLightRef = null;
+// not in use...
+
 var LightView = BaseView.extend({
     spotLight: null,
     load: function() {
         this.spotLight = new THREE.SpotLight( 0xffffff);
-        this.spotLight.position.set( 100, 100, 100);
-        this.spotLight.intensity = 10;
-        this.spotLight.distance = 3000;
+        this.spotLight.position.set( 0, 0, 100 );
+        this.spotLight.cameraVisible = true;
 
-        this.spotLight.cameraVisible = false;
-
-        this.spotLight.castShadow = false;
+        this.spotLight.castShadow = true;
         this.spotLight.shadowMapWidth = 1024;
-        this.spotLight.shadowMapHeight = 1024;
+        this. spotLight.shadowMapHeight = 1024;
         this.spotLight.shadowCameraNear = 500;
-        this.spotLight.shadowCameraFar = 4000;
-        this.spotLight.shadowCameraFov = 30;
+        this. spotLight.shadowCameraFar = 4000;
+        this. spotLight.shadowCameraFov = 30;
 
         this.scene.add( this.spotLight );
         this.scene.lightAddedFoReal = true;
-        spotLightRef = this.spotLight;
+
+        spotLightRef = this;
     },
     move: function(x, y, width, height) {
 
+    },
+    targetTo : function(obj) {
+
+        this.spotLight.target = obj;
     }
+
 });
 
 

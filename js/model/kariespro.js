@@ -9,11 +9,9 @@ var KariesProView = BaseView.extend({
 
                 that.object.rotation.z += 30 * Math.PI / 180;
                 that.object.rotation.y += 20 * Math.PI / 180;
-                that.object.rotation.x += 180 * Math.PI / 180;
 
                 that.scene.add(that.object);
                 that.triggers.add(that.object);
-
             });
     },
     move: function(x, y, width, height) {
@@ -29,8 +27,8 @@ var KariesProView = BaseView.extend({
     },
 
     activate: function() {
-        this.object.rotation.x += 20 * Math.PI / 180
-        this.object.rotation.y += 30 * Math.PI / 180
+        this.object.rotation.x += 20 * Math.PI / 180;
+        this.object.rotation.y += 30 * Math.PI / 180;
     }
 });
 
