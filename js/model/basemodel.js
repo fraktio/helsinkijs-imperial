@@ -17,17 +17,18 @@ var BaseView = voodoo.View.extend({
 
             dfd.resolve(localObject);
 
-            that.addLightIfNoneEsxist(localObject);
+            that.addLightIfNoneExist(localObject);
         });
 
         return dfd.promise();
     },
-    addLightIfNoneEsxist: function(object) {
+    addLightIfNoneExist: function(object) {
         if (this.scene.lightAddedFoReal) {
             var spotLight = new THREE.SpotLight( 0xffffff );
-            spotLight.position.set( 0, 0, 100 );
+            spotLight.position.set( 0, 800, -1 );
             spotLight.cameraVisible = true;
-            spotLight.intensity = 1;
+
+            spotLight.intensity = 1.5;
             spotLight.castShadow = true;
             spotLight.shadowMapWidth = 1024;
             spotLight.shadowMapHeight = 1024;
